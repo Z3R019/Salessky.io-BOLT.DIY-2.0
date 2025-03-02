@@ -1,0 +1,26 @@
+{
+  "name": "salessky-server",
+  "version": "1.0.0",
+  "description": "E-Mail-Backend für SalesSky.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "papaparse": "^5.5.2",
+    "react-dropzone": "^14.3.8"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.15",
+    "netlify-cli": "^19.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
